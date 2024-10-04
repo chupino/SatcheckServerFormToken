@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
-const server = app.listen(process.env.PORT || 5000, () => {
+const server = app.listen(process.env.PORT || 6000, () => {
     const port = server.address().port;
     console.log(`Express is working on port ${port}`);
 });

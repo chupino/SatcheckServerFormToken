@@ -7,11 +7,11 @@
 */
 
 const keys = {    
-    "username"   : "xxxxxxxxxxx",
-    "password"   : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "username"   : "64736775",
+    "password"   : "testpassword_uV6m4VxGQZxgeFqydHn5RUBWnKBwJY69rZ95rZqoxzwn2",
     "endpoint"   : "https://api.micuentaweb.pe",
-    "publickey"  : "xxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "HMACSHA256" : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    "publickey"  : "64736775:testpublickey_AjgTGrbzofvvlblc4TnpM6Ou9n3IpcqwyVSLqr20wwTEq",
+    "HMACSHA256" : "E1bN49bGaMuR8N20c7MrOD1mY20PDjEHy9FdlNUbI1YIY"
 }
 
 module.exports =  keys

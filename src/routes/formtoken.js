@@ -66,7 +66,8 @@ router.post('/', function(req, res, next)
     if (body.status === 'SUCCESS')
     {
       //Devuelve el token de formulario al lado del cliente
-      const formtoken = body.answer.formToken;
+      //const formtoken = body.answer.formToken;
+      const formtoken = body;
       res.send(formtoken);
     }
     else
